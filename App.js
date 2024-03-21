@@ -1,6 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
 import UserList from './UserList';
+import StateDemo from './StateDemo';
+import Login from './Login';
+import DeptArrayCrud from './DeptArrayCrud';
+import ShoppingCart from './shoppingCart';
+import AjaxDemo from './AjaxDemo';
+import AjaxDemo2 from './AjaxDemo2';
+import AjaxDemo3 from './AjaxDemo3';
+import bankStore from './BankStore';
+import BankApp from './components/BankApp';
+
+
+
 
 
 function App() {
@@ -27,7 +39,14 @@ function App() {
 
   return (
     <>
-      <h1>Assignment 1 </ h1>
+
+    
+    
+    <img src='./Image2.jpg'></img>
+
+
+    {/* 
+       <h1>Assignment 1 </ h1>
       <h1>Employee Data</h1>
 
       
@@ -91,7 +110,14 @@ function App() {
           </>
         })
       }
+
+      <br />
+      <br />
+
+      <StateDemo />
       
+      <br />
+      <br />  */}
     </>
   );
 }
